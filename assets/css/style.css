@@ -1,0 +1,33 @@
+
+body, html {
+    height: 100%;
+}
+
+
+
+
+
+
+body {
+    background-image: url("../images/pokebackground.jpg");
+     /* Full height */
+     height: 100%; 
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+
+
+
+
+
+.ball {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    
+}
