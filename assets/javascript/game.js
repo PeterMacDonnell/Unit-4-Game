@@ -21,19 +21,25 @@ for (var i = 0; i < ballRandom.length; i++) {
 // var numberOptions = ballRandom;
   // var increment = numberOptions[Math.round(Math.random())];
 
-  
+  var PBall = $("<img>");
+  PBall.addClass("Pokeballs");
 
-  ball.attr("data-ballValue", ballRandom[i]);
+  PBall.attr("src", "http://pixelart.studio/Gallery/Image/e3a1ea67-7b54-4d66-9ee5-7270b03cb50d?type=png");
+
+  PBall.attr("data-ballvalue", ballRandom[i]);
+
+  $("#PBalls").append(Pball);
 
   // $(".ball").append(ball);
 }
 var increment = ballRandom;
  
 $(".ball").on("click", function(){
-  counter += increment;
+  
 
-  var ballValue = ($(this).attr("data-ballValue"));
-  ballValue = parseInt(ballValue);
+  var ballValue = ($(this).attr("data-ballvalue"));
+  ballValue = parseInt(ballvalue);
+  counter += increment;
 
 alert("New Score: " + counter);
 
